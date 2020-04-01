@@ -1,0 +1,9 @@
+# NPM
+/node_modules/
+/package-lock.json
+
+# Project
+/dist/
+
+# OS
+.DS_Store

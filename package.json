@@ -1,0 +1,30 @@
+{
+  "name": "game-frontend",
+  "version": "0.1.0",
+  "description": "Front-End of the game",
+  "author": "Aaron Delasy <aaron@thelang.io>",
+  "private": true,
+  "keywords": [
+    "game",
+    "frontend"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.1.0",
+    "@typescript-eslint/parser": "^2.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^6.3.0",
+    "eslint-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
